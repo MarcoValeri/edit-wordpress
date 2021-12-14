@@ -3,7 +3,7 @@
 // Add Theme Support
 add_theme_support('title-tag');
 add_theme_support('post-thumbnails');
-add_theme_support('post_format', [
+add_theme_support('post-formats', [
     'aside',
     'gallery',
     'link',
@@ -49,9 +49,9 @@ function wphierarchy_widgets_init() {
     ]);
 
     register_sidebar([
-        'name' => esc_html__('Footer Sidebar', 'wphierarchy'),
-        'id'            => 'footer-sidebar',
-        'description'   => esc_html__('Add widgets for main sidebar here', 'wphierarchy'),
+        'name' => esc_html__('Page Sidebar', 'wphierarchy'),
+        'id'            => 'page-sidebar',
+        'description'   => esc_html__('Add widgets for page sidebar here', 'wphierarchy'),
         'before_widget' => '<section class="widget">',
         'after_widget'  => '</section>',
         'before_title'  => '<h2 class="widget-title">',

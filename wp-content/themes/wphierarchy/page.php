@@ -3,15 +3,15 @@
         <main id="main" class="site-main" role="main">
             <!-- Loop throgh the articles -->
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                <?php get_template_part('template-parts/content', get_post_format()); ?> <!-- This line -->
+                <?php get_template_part('template-parts/content', 'page'); ?>
             <?php endwhile; else: ?>
                 <?php get_template_part('template-parts/content', 'none'); ?>
             <?php endif; ?>
-            <p>Template: single.php</p>
+            <p>Template: page.php</p>
         </main>
     </div>
 <!-- Add sidebar -->
-<?php get_sidebar(); ?>
+<?php get_sidebar('page'); ?>
 
 <!-- Add footer -->
 <?php get_footer(); ?>
