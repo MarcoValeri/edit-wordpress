@@ -24,6 +24,10 @@ body {
   body.category-9 {
     background-color: #a7ff91;
   }
+
+  body.postid-1392 {
+    background-color: #AB8BED;
+  }
   
   h1, h2, h3, h4, h5, h6,
   .site-title {
@@ -205,6 +209,16 @@ body {
   #secondary {
     width: 25%;
     float: right;
+  }
+
+  .home #seconday {
+    width: 100%;
+    clear: both;
+  }
+
+  .home #seconday .widget {
+    width: 30%;
+    float: left;
   }
   
   #secondary h2 {
