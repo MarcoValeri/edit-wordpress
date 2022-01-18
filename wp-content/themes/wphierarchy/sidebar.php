@@ -5,5 +5,15 @@
 ?>
 
 <aside id="secondary" class="widget-area" role="complementary">
+    <?php if (!is_user_logged_in()): ?>
+        <?php 
+            $args = [
+                'label_username' => 'Enter your username',
+                'label_password' => 'Enter your password',
+            ];
+            wp_login_form($args);    
+        ?>
+    <?php endif; ?>
+    <?php wp_loginout(get_permalink()); ?>
     <?php dynamic_sidebar('main-sidebar'); ?>
 </aside>

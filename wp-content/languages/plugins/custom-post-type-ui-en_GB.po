@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Custom Post Type UI - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-15 07:35:15+0000\n"
+"PO-Revision-Date: 2021-12-20 17:37:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,67 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: en_GB\n"
 "Project-Id-Version: Plugins - Custom Post Type UI - Stable (latest release)\n"
+
+#: inc/taxonomies.php:1061
+msgid "Show in tag cloud."
+msgstr "Show in tag cloud."
+
+#: inc/support.php:226
+msgid "We recommend checking out %s, the latest iteration of \"CMB2\". Both are supported by WebDevStudios."
+msgstr "We recommend checking out %s, the latest iteration of \"CMB2\". Both are supported by WebDevStudios."
+
+#: inc/post-types.php:1147
+msgid "Choose dashicon"
+msgstr "Choose dashicon"
+
+#: inc/post-types.php:301 inc/taxonomies.php:309
+msgid "Clear labels"
+msgstr "Clear labels"
+
+#: inc/taxonomies.php:648
+msgid "Used when indicating that there are no terms in the given taxonomy within the meta box and taxonomy list table."
+msgstr "Used when indicating that there are no terms in the given taxonomy within the meta box and taxonomy list table."
+
+#: inc/post-types.php:995
+msgid "(default: false) Whether or not the post type can have parent-child relationships. At least one published content item is needed in order to select a parent."
+msgstr "(default: false) Whether or not the post type can have parent-child relationships. At least one published content item is needed in order to select a parent."
+
+#: external/wpgraphql.php:235
+msgid "Plural name for reference in the GraphQL API."
+msgstr "Plural name for reference in the GraphQL API."
+
+#: external/wpgraphql.php:226
+msgid "Singular name for reference in the GraphQL API."
+msgstr "Singular name for reference in the GraphQL API."
+
+#: external/wpgraphql.php:215
+msgid "Whether or not to show data of this type in the WPGraphQL. Default: false"
+msgstr "Whether or not to show data of this type in the WPGraphQL. Default: false"
+
+#: external/wpgraphql.php:214
+msgid "Show in GraphQL"
+msgstr "Show in GraphQL"
+
+#: external/wpgraphql.php:184
+msgid "Toggle panel: GraphQL Settings"
+msgstr "Toggle panel: GraphQL Settings"
+
+#: external/wpgraphql.php:180
+msgid "WPGraphQL"
+msgstr "WPGraphQL"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:707
+msgid "Back to %s"
+msgstr "Back to %s"
+
+#: inc/taxonomies.php:704
+msgid "The text displayed after a term has been updated for a link back to main index."
+msgstr "The text displayed after a term has been updated for a link back to main index."
+
+#: inc/taxonomies.php:634
+msgid "The text displayed via clicking ‘Choose from the most used items’ in the taxonomy meta box when no items are available."
+msgstr "The text displayed via clicking ‘Choose from the most used items’ in the taxonomy meta box when no items are available."
 
 #: inc/taxonomies.php:1101
 msgid "Default Term"
@@ -199,6 +260,133 @@ msgstr "Content types registered with Custom Post Type UI."
 #: inc/post-types.php:690 inc/taxonomies.php:693
 msgid "%s list"
 msgstr "%s list"
+
+#. translators: Used for autofill
+#. translators: Used for autofill
+#: inc/post-types.php:676 inc/taxonomies.php:679
+msgid "%s list navigation"
+msgstr "%s list navigation"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:665
+msgid "No %s"
+msgstr "No %s"
+
+#. translators: Used for autofill
+#. translators: Used for autofill
+#: inc/post-types.php:521 inc/taxonomies.php:651
+msgid "No %s found"
+msgstr "No %s found"
+
+#. translators: Used for autofill
+#: inc/taxonomies.php:511
+msgid "Update %s name"
+msgstr "Update %s name"
+
+#: inc/post-types.php:1168 inc/taxonomies.php:318
+msgid "Post type options"
+msgstr "Post type options"
+
+#: inc/post-types.php:297 inc/taxonomies.php:304
+msgid "Auto-populate labels"
+msgstr "Auto-populate labels"
+
+#: inc/post-types.php:295 inc/taxonomies.php:302
+msgid "Populate missing labels based on chosen labels"
+msgstr "Populate missing labels based on chosen labels"
+
+#: inc/post-types.php:294 inc/taxonomies.php:301
+msgid "Populate additional labels based on chosen labels"
+msgstr "Populate additional labels based on chosen labels"
+
+#: inc/taxonomies.php:1094
+msgid "Sets a callback function name for the meta box display. Hierarchical default: post_categories_meta_box, non-hierarchical default: post_tags_meta_box. To remove the metabox completely, use \"false\"."
+msgstr "Sets a callback function name for the meta box display. Hierarchical default: post_categories_meta_box, non-hierarchical default: post_tags_meta_box. To remove the meta box completely, use \"false\"."
+
+#: inc/wp-cli.php:116
+msgid "Successfully saved data to file."
+msgstr "Successfully saved data to file."
+
+#: inc/wp-cli.php:113
+msgid "Error saving data."
+msgstr "Error saving data."
+
+#: inc/wp-cli.php:92
+msgid "Please provide whether you are exporting your post types or taxonomies"
+msgstr "Please provide whether you are exporting your post types or taxonomies"
+
+#: inc/wp-cli.php:72
+msgid "Imported %s successfully"
+msgstr "Imported %s successfully"
+
+#: inc/wp-cli.php:70
+msgid "An error on import occurred"
+msgstr "An error on import occurred"
+
+#: inc/wp-cli.php:56
+msgid "No JSON data found"
+msgstr "No JSON data found"
+
+#: inc/wp-cli.php:48
+msgid "Please provide a path to the file holding your CPTUI JSON data."
+msgstr "Please provide a path to the file holding your CPTUI JSON data."
+
+#: inc/wp-cli.php:44
+msgid "Please provide whether you are importing post types or taxonomies"
+msgstr "Please provide whether you are importing post types or taxonomies"
+
+#. translators: Placeholder will hold `<abbr>` tag for CPTUI.
+#: inc/utility.php:121
+msgid "Review %s"
+msgstr "Review %s"
+
+#: inc/taxonomies.php:1093
+msgid "Metabox callback"
+msgstr "Meta box callback"
+
+#: inc/taxonomies.php:1039
+msgid "(default: WP_REST_Terms_Controller) Custom controller to use instead of WP_REST_Terms_Controller."
+msgstr "(default: WP_REST_Terms_Controller) Custom controller to use instead of WP_REST_Terms_Controller."
+
+#: inc/taxonomies.php:775
+msgid "(default: value of \"public\" setting) Whether or not the taxonomy should be publicly queryable."
+msgstr "(default: value of \"public\" setting) Whether or not the taxonomy should be publicly queryable."
+
+#: inc/taxonomies.php:752
+msgid "(default: true) Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
+msgstr "(default: true) Whether a taxonomy is intended for use publicly either via the admin interface or by front-end users."
+
+#: inc/taxonomies.php:315
+msgid "Add support for available registered post types. At least one is required. Only public post types listed by default."
+msgstr "Add support for available registered post types. At least one is required. Only public post types listed by default."
+
+#: inc/support.php:274
+msgid "We recommend %s for some extended customization and addition of extra fields regarding roles and capabilities."
+msgstr "We recommend %s for some extended customisation and addition of extra fields regarding roles and capabilities."
+
+#: inc/support.php:272
+msgid "Any help with customizing capabilities?"
+msgstr "Any help with customising capabilities?"
+
+#: inc/post-types.php:1036
+msgid "(default: true) Should the permalink structure be prepended with the front base. (example: if your permalink structure is /blog/, then your links will be: false->/news/, true->/blog/news/)."
+msgstr "(default: true) Should the permalink structure be prepended with the front base. (example: if your permalink structure is /blog/, then your links will be: false->/news/, true->/blog/news/)."
+
+#: inc/post-types.php:922
+msgid "(default: WP_REST_Posts_Controller) Custom controller to use instead of WP_REST_Posts_Controller."
+msgstr "(default: WP_REST_Posts_Controller) Custom controller to use instead of WP_REST_Posts_Controller."
+
+#: inc/post-types.php:921 inc/taxonomies.php:1038
+msgid "REST API controller class"
+msgstr "REST API controller class"
+
+#: inc/post-types.php:710
+msgid "\"New\" menu in admin bar"
+msgstr "\"New\" menu in admin bar"
+
+#: inc/post-types.php:234 inc/taxonomies.php:240
+msgid "Slug already exists"
+msgstr "Slug already exists"
 
 #: inc/support.php:68
 msgid "View our Layouts page"
@@ -405,6 +593,10 @@ msgstr "Toggle panel: Basic settings"
 msgid "Import/Export Post Types"
 msgstr "Import/Export Post Types"
 
+#: inc/listings.php:237
+msgid "*Replace \"post_slug\" with the slug of the actual post."
+msgstr "*Replace \"post_slug\" with the slug of the actual post."
+
 #: inc/listings.php:157 inc/listings.php:371
 msgid "Get code"
 msgstr "Get code"
@@ -584,6 +776,10 @@ msgstr "(WP Core)"
 #: inc/post-types.php:1154
 msgid "Choose image icon"
 msgstr "Choose image icon"
+
+#: inc/post-types.php:1135
+msgid "Image URL or %sDashicon class name%s to use for icon. Custom image should be 20px by 20px."
+msgstr "Image URL or %sDashicon class name%s to use for icon. Custom image should be 20px by 20px."
 
 #: inc/post-types.php:687
 msgid "(e.g. Movies list)"
