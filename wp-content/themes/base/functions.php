@@ -2,7 +2,7 @@
 
 // Add Theme Support
 add_theme_support('title-tag');
-add_theme_support('post-thumbnails');
+add_theme_support('post-thumbnails', ['post', 'page']);
 add_theme_support('post-formats', [
     'aside',
     'gallery',

@@ -18,6 +18,15 @@
                         <?php the_title('<h2>', '</h2>'); ?>
                     </div>
                     <div>
+                        <?php
+                            $attr = [
+                                'class' => 'alignleft',
+                                'title' => get_the_title()
+                            ];
+                            the_post_thumbnail('thumbnail', $attr);
+                        ?>
+                    </div>
+                    <div>
                         <?php the_excerpt(); ?>
                     </div>
                     <div>
