@@ -13,10 +13,23 @@
                 <?php the_content(); ?>
             </div>
             <div>
+                <p>URL: <?php the_permalink(); ?></p>
+                <p>LINK: <?= get_permalink(); ?></p>
+            </div>
+            <div>
                 <?php previous_post_link(); ?>
             </div>
             <div>
                 <?php next_post_link(); ?>
+            </div>
+            <div>
+                <p>Edit the post: <?php edit_post_link(); ?></p>
+            </div>
+            <div>
+                <p>Come back to <a href="<?= home_url(); ?>">Home</a></p>
+            </div>
+            <div>
+                <p>Site URL: <?= site_url('/header'); ?></p>
             </div>
         </section>
     <?php endwhile; endif; ?>
