@@ -29,4 +29,14 @@ function base_enqueue_styles() {
 
 add_action('wp_enqueue_scripts', 'base_enqueue_styles');
 
+// Load in out JS
+function wptags_enqueue_scripts() {
+    wp_enqueue_script('jquery-theme-js', get_stylesheet_directory_uri() . '/assets/js/jquery.theme.js', ['jquery'], time(), true);
+
+    // Add reply btn in comments
+    if (is_singular() && comments_open()) {
+        wp_enqueue_script('comment-reply');
+    }
+}
+
 ?>

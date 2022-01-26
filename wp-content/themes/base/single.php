@@ -31,6 +31,14 @@
             <div>
                 <p>Site URL: <?= site_url('/header'); ?></p>
             </div>
+            <!-- Call the comment template if there are some comments --> 
+            <div>
+                <?php
+                if (comments_open() || get_comments_number()) {
+					comments_template();
+				}
+                ?>
+            </div>
         </section>
     <?php endwhile; endif; ?>
 </main>
