@@ -33,6 +33,7 @@
             </div>
             <!-- Call the comment template if there are some comments --> 
             <div>
+                <h4>Last comments</h4>
                 <?php
                 if (comments_open() || get_comments_number()) {
 					comments_template();

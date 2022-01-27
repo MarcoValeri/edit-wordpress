@@ -39,4 +39,11 @@ function wptags_enqueue_scripts() {
     }
 }
 
+// Comment Custom callback
+function wptags_comment() {
+
+    get_template_part( 'comment' );
+  
+}
+
 ?>
