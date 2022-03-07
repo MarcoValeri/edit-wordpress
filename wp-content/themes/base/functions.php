@@ -22,6 +22,9 @@ add_theme_support('custom-logo');
 add_theme_support('customize-selective-refresh-widgets');
 add_theme_support('starter-content');
 
+// Include R Debug
+require(dirname(__FILE__) . '/lib/r-debug.php');
+
 //Load in out CSS
 function base_enqueue_styles() {
     wp_enqueue_style('main-css', get_stylesheet_directory_uri() . '/style.css', [], time(), 'all');
